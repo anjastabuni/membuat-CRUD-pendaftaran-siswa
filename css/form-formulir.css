@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(133, 133, 133);
+  margin: 0;
+  margin-top: -20px;
+}
+header {
+  background-color: blue;
+  height: 100px;
+}
+h3 {
+  display: inline-block;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 20px;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+}
+fieldset {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  background-color: rgb(129, 179, 232);
+}
+.label,
+input {
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+form input,
+select {
+  display: inline-block;
+  width: 400px;
+  height: 40px;
+  border: none;
+  border: 2px solid rgb(191, 191, 224);
+  border-radius: 10px;
+  padding-left: 10px;
+}
+#kusus {
+  display: inline-block;
+  margin: 5px;
+  margin-top: 0;
+  margin-right: 10px;
+  width: 15px;
+  text-align: center;
+}
+.submit {
+  color: white;
+  background-color: blue;
+  border: none;
+  margin-top: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}

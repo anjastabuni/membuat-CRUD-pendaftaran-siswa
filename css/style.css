@@ -1,0 +1,116 @@
+/* css start */
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: inline-block;
+  width: 100%;
+  background-color: rgb(241, 246, 243);
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 15px;
+}
+.header p {
+  display: inline-block;
+  margin: 5px;
+}
+header h1 {
+  padding-top: 10px;
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.999);
+  margin-top: 0;
+  width: 100%;
+  border-bottom: 5px solid rgb(84, 84, 85);
+}
+nav ul,
+li,
+a {
+  color: white;
+  display: inline-block;
+  list-style-type: none;
+  margin: 15px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+img {
+  float: left;
+  margin: 5px;
+}
+
+.banner {
+  display: flex;
+  background-image: url(https://ustj.ac.id/wp-content/uploads/2022/02/foto.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+.banner h2,
+h3,
+p {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  padding: 10px;
+}
+.banner button {
+  background-color: blue;
+  color: white;
+  font-weight: 300;
+  margin: auto;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  width: 200px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  background-color: rgb(187, 234, 255);
+  font-family: "Times New Roman", Times, serif;
+  width: 70%;
+  height: 530px;
+  color: black;
+  float: left;
+}
+.aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  background-color: rgb(140, 185, 248);
+  font-family: "Times New Roman", Times, serif;
+  width: 30%;
+  height: 530px;
+  color: black;
+}
+.aside .news {
+  margin: 10px;
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  color: #000;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(72, 72, 72);
+  color: #000;
+  text-align: center;
+  padding: auto;
+}
